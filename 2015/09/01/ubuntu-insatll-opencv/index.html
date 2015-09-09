@@ -17,7 +17,8 @@
 <meta property="og:url" content="http://yoursite.com/2015/09/01/ubuntu-insatll-opencv/index.html">
 <meta property="og:site_name" content="在机器学习的道路上奋斗">
 <meta property="og:description" content="安装Ope1nCV所需的库（编译器、必须库、可选库）GCC 4.4.x or laterCMake 2.6 or higherGitGTK+2.x or higher, including headers (libgtk2.0-dev)pkg-configPython 2.6 or later and Numpy 1.5 or later with developer packages (pyth">
-<meta property="og:updated_time" content="2015-09-02T13:38:58.000Z">
+<meta property="og:image" content="http://yoursite.com/img/lena.png">
+<meta property="og:updated_time" content="2015-09-09T08:12:40.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="ubuntu insatll opencv">
 <meta name="twitter:description" content="安装Ope1nCV所需的库（编译器、必须库、可选库）GCC 4.4.x or laterCMake 2.6 or higherGitGTK+2.x or higher, including headers (libgtk2.0-dev)pkg-configPython 2.6 or later and Numpy 1.5 or later with developer packages (pyth">
@@ -107,6 +108,7 @@
 <p>  添加内容：<br>  PKG_CONFIG_PATH=$PKG_CONFIG_PATH:/usr/local/lib/pkgconfig<br>  export PKG_CONFIG_PATH</p>
 <h2 id="测试OpenCV自带例子：">测试OpenCV自带例子：</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cd</span> samples</span><br><span class="line">sudo cmake .</span><br><span class="line">sudo make -j $(nproc) <span class="comment">#</span></span><br><span class="line"><span class="built_in">cd</span> cpp</span><br><span class="line">sudo ./cpp-example-facedetect ../data/lena.jpg</span><br></pre></td></tr></table></figure>
 <p>   出现图像以及面部识别区域，说明OpenCV安装成功！</p>
+<p><img src="/img/lena.png" alt="result"></p>
   
 	</div>
 		<footer class="article-footer clearfix">
@@ -185,7 +187,7 @@
         
           <li>
             
-            	<a href="sinb.github.io" target="_blank" title="小司">小司</a>
+            	<a href="http://sunxg13.github.io/" target="_blank" title="sun">sun</a>
             
           </li>
         
@@ -198,6 +200,12 @@
           <li>
             
             	<a href="http://www.letiantian.me/" target="_blank" title="乐天">乐天</a>
+            
+          </li>
+        
+          <li>
+            
+            	<a href="http://sinb.github.io/" target="_blank" title="小司">小司</a>
             
           </li>
         
